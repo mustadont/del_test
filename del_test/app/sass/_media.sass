@@ -1,0 +1,182 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.header
+		padding: 10px
+		display: flex
+		flex-flow: wrap
+		&_callback
+			display: flex
+			flex-direction: row
+			margin-right: 0
+			// &__button-top
+			// 	padding: 10px 15px
+			// &__button-bottom
+			// 	padding: 10px 15px
+		&_calc
+			max-width: auto
+	.slider_txt
+		position: absolute
+		top: 0
+		left: 0
+		& h2
+			font-size: 30px
+			font-weight: 400
+			margin: 0
+			line-height: 50px
+		& p
+			font-size: 39px
+			font-weight: 300
+			margin: 0
+			line-height: 56px
+		& span
+			font-size: 26px
+			line-height: 54px
+	.content_delivery
+		text-align: center
+		& h2
+			margin: 0 auto
+		&__gal
+			padding: 10px
+			& .gal
+				max-width: 368px
+				marign: 0 auto
+				&:last-child
+					margin: 0 auto
+	.routes_box__items
+		padding: 10px
+	.wrap
+		padding: 10px
+	.content_certificate
+		flex-direction: column
+		&__img
+			justify-content: center
+	.content_cooperation
+		flex-flow: wrap
+		flex-direction: row
+		justify-content: space-between
+	.content_cooperation__item
+		max-width: 350px
+		margin-right: 0 !important
+	.content_perfects
+		&_items
+			flex-flow: wrap
+			flex-direction: row
+			justify-content: space-between
+		&__item
+			max-width: 320px
+	.content_banners
+		flex-direction: column
+		&__item
+			margin: 0 auto
+			margin-right: auto !important
+	footer
+		padding: 10px
+		& .footer
+			flex-flow: wrap
+		& .footer_nav
+			margin: 0 !important
+
+	.footer_contacts
+		margin-left: 75%
+	.nav
+		display: none
+	.wrapper_menu
+		display: block
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header
+		display: flex
+		flex-direction: column
+		&_logo, &_callback, &_contacts, &_address, &_calc
+			margin: 20px
+
+	.slider_txt
+		& h2
+			font-size: 16px !important
+			font-weight: 400
+			margin: 0
+			line-height: 20px
+		& p
+			font-size: 18px !important
+			font-weight: 300
+			margin: 0
+			line-height: 26px
+		& span
+			font-size: 12px !important
+			line-height: 20px
+	.content_perfects_items
+		justify-content: center
+	.content_banners__item
+		& img
+			width: 100%
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.routes_box
+		text-align: center
+		& h2
+		&__items
+			justify-content: center !important
+	footer
+		text-align: center
+		padding: 40px
+		max-width: 480px
+		& .footer
+			flex-direction: column
+			flex-flow: no-wrap
+			max-width: 480px
+			& .footer_nav_wrapper
+				flex-direction: column
+	
+	.footer_nav__item
+		padding-left: 0
+	.footer_contacts
+		margin: 20px auto
+		font-size: 20px
+	.footer_copyright
+		flex-direction: column
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
